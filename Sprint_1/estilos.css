@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#landing_navbar {
+    position: fixed;
+    width: 230px;
+    height: 100%;
+    background: #d1cfc7;
+}
+
+#landing_navbar ul li {
+    color: rgba(230, 230, 230, .9);
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 0px solid rgba(100, 100, 100, .3);
+}
+
+#navbar_logo {
+    /*border-radius: 50%;*/
+    width: 200px;
+    height: 173px;   
+    display: block;
+    margin: 0 auto;
+}
+
+#btn_irRegistro {
+    width: 100%;
+    border: none;
+    background:  #3bb44c;
+    padding: 12px;
+    color: white;
+    margin: 100% 0;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+#btn_irRegistro a {
+    color: white;
+    text-decoration: none;
+}
+
+.description{
+    position: fixed;
+    margin-top: 17em;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#navbar{
+    height: inherit;
+}
+
+#contenido {
+    height: fit-content;
+}
+
+body {
+    text-align: justify;
+}
+
+#sidebar-menu {
+    background-color: #2c3238;
+    width: 90px;
+    height: 100vh;
+    position: absolute; 
+    border-right: 4px solid #aaa;           
+}
+
