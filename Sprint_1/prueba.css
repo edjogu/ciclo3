@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    background: yellow;
+    height: 200px;
+    position: relative;
+}
+
+.hijo {
+    background: #d1cfc7;
+    width: 250px;
+    /*IMPORTANTE*/
+    height: 100vh;
+    position: absolute;
+    top: 20%;
+    margin-top: -40px;
+}
+
+.descripcion {
+    background: #f8f7f3;
+    height: 100vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion p {
+    text-align: center;
+    color: rgb(24, 26, 26);
+    font-size: 1.4em;
+    text-transform: capitalize;
+    font: 'verdana';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+#landing_navbar {
+    position: fixed;
+    width: 250px;
+    height: 100%;    
+}
+
+#landing_navbar ul li {
+    color: rgba(230, 230, 230, .9);
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 0px solid rgba(100, 100, 100, .3);
+}
+
+#navbar_logo {
+    /*border-radius: 50%;*/
+    width: 200px;
+    height: 173px;   
+    display: block;
+    margin: 0 auto;
+}
+
+#btn_irRegistro {
+    width: 100%;
+    border: none;
+    background:  #3bb44c;
+    padding: 12px;
+    color: white;
+    margin: 100% 0;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+#btn_irRegistro a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3em;
+}
+

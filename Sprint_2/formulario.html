@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Registro</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+     <form action="" id="formulario">
+        <div class="input">
+            <label for="username">Nombre de usuario</label>
+            <input id="username" name="username" type="text">
+            <span>Solo puede conetener letras de la a la z en minusculas</span>
+            <span class="span2">Solo puede conetener letras de la a la z en minusculas</span>
+        </div>
+
+        <div class="input">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="text">
+            <span>Debe conetener una mayuscula, una minuscula y un numero</span>
+            <span class="span2">Debe conetener una mayuscula, una minuscula y un numero</span>
+        </div>       
+
+        <input type="submit" class="submit-button" value="Enviar">
+    </form> 
+    <div id="error">
+
+    </div>
+    <script src="app.js"></script>   
+</body>
+</html>

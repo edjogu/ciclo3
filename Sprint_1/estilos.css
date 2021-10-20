@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+#navbar {
+    width: auto;
+    height: 900px;
+}
+
+.description {
+    width: 231px;
+    height: auto;
+}
+
+#description p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3bb44c;
+}
+
 #landing_navbar {
     position: fixed;
     width: 230px;
@@ -43,21 +58,6 @@
     text-decoration: none;
 }
 
-.description{
-    position: fixed;
-    margin-top: 17em;
-    margin-left: 50%;
-    margin-right: 50%;
-}
-
-#navbar{
-    height: inherit;
-}
-
-#contenido {
-    height: fit-content;
-}
-
 body {
     text-align: justify;
 }
@@ -69,4 +69,7 @@ body {
     position: absolute; 
     border-right: 4px solid #aaa;           
 }
+
+
+
 

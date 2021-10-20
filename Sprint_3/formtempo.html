@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Registro</title>
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+     <form action="">
+        <div>
+            <label for="username">Nombre de usuario</label>
+            <input id="in_usuario" name="username" type="text">            
+        </div>
+        <div class="input">
+            <label for="password">Contraseña</label>
+            <input id="in_contrasena" name="password" type="text">            
+        </div>
+        <!-- <div>
+            <button id="boton" type="reset" onclick="agregarRegistro();">Registar</button>
+        </div>
+        <div>
+            <button id="boton" type="reset" onclick="filtrarPorContrasena(registros,6);">Filtrar</button>
+        </div> -->
+        <div>
+            <input type="button" value="Agregar" id="btn_agregar">
+        </div> 
+        <!-- <div>
+            <input type="button" value="Filtrar" id="btn_filtrar">
+        </div>             -->
+
+        <!-- <input type="submit" class="submit-button" onclick="capturar();" value="Registrar"> -->
+    </form> 
+    <div class="container">
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Contraseña</th>
+                </tr>
+            </thead>
+            
+        </table>        
+    </div>
+    <div class="container">
+        <table id="tablafiltro">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Contraseña Filtrada</th>
+                </tr>
+            </thead>
+            
+        </table>        
+    </div>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/registro.js"></script>  -->
+    <!-- <script src="js/apps.js"></script>   -->
+</body>
+</html>
